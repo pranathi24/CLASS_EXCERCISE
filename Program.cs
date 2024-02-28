@@ -1,4 +1,9 @@
-﻿using System;
+﻿/* AUthor : Pranathi Cheemarla
+ * DAte:02/28/2/24
+ * Program: bubble sort
+ * Comments: applies bubble sort for the given array
+ */
+using System;
 
 int[] bubble_sort_numbers = { 3, 62, 5, 16, 4, 10 };
 
@@ -36,7 +41,7 @@ static void Bubble_Sort(int[] bs_arr)
                 int temp = bs_arr[x];
                 bs_arr[x] = bs_arr[x + 1];
                 bs_arr[x + 1] = temp;
-                bs_arr[x + 1] = temp;
+            
             } // End of if
         } // End of inner for loop
     } // End of outer for loop
