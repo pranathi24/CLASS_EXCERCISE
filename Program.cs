@@ -36,6 +36,7 @@ static void Bubble_Sort(int[] bs_arr)
                 int temp = bs_arr[x];
                 bs_arr[x] = bs_arr[x + 1];
                 bs_arr[x + 1] = temp;
+                bs_arr[x + 1] = temp;
             } // End of if
         } // End of inner for loop
     } // End of outer for loop
